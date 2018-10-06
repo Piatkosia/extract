@@ -8,7 +8,7 @@ using System.IO;
 namespace MyExt
 {
    [ComVisible(true)]
-  [COMServerAssociation(AssociationType.Directory)]
+   [COMServerAssociation(AssociationType.Directory)]
     public class Extractor : SharpContextMenu
     {
         protected override bool CanShowMenu()
